@@ -3,7 +3,16 @@ body {
     color: #222;
   }
   
+  .emojis {
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-gap:15px;
+  }
+
   .emoji {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
     border: 1px solid #222;
     border-radius: 8px;
     padding: 1rem;
