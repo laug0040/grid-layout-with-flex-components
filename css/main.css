@@ -10,6 +10,7 @@ body {
   }
 
   .emoji {
+    margin:auto;
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -19,11 +20,13 @@ body {
   }
   
   .emoji h2 {
+    order:2;
     margin: 0;
     border-bottom: 2px solid #ccc;
   }
   
   .emoji a {
+    order:4;
     margin:auto;
     text-decoration: none;
     background-color: #781BAA;
@@ -31,8 +34,13 @@ body {
     padding: 1rem;
     border-radius: 8px;
   }
+
+  .emoji p {
+    order:3;
+  }
   
   .icon {
-    
+    order:1;
+    margin:auto;
     font-size: 4rem;
   }
